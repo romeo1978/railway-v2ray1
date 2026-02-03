@@ -3,7 +3,7 @@
   "inbounds": [{
     "port": 8080,
     "listen": "0.0.0.0",
-    "protocol": "vmess",
+    "protocol": "vless",
     "settings": {
       "clients": [{
         "id": "5c810aa7-86d3-4afd-aa84-f7daa5b2603d",
