@@ -1,6 +1,7 @@
 {
+  "log": {"loglevel": "warning"},
   "inbounds": [{
-    "port": 443,
+    "port": 3000,
     "protocol": "vmess",
     "settings": {
       "clients": [{
