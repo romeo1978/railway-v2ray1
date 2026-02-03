@@ -9,7 +9,14 @@
       }]
     },
     "streamSettings": {
-      "network": "ws"
+      "network": "ws",
+      "security": "tls",
+        "wsSettings": {
+          "path": "/ws",
+          "headers": {
+            "Host": "railway-v2ray1-production.up.railway.app"
+          }
+        }      
     }
   }],
   "outbounds": [{
