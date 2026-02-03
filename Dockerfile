@@ -12,7 +12,7 @@ RUN curl -L -o xray.zip https://github.com/XTLS/Xray-core/releases/latest/downlo
 
 COPY config.json /etc/xray/config.json
 
-EXPOSE 80 443
+EXPOSE 8080
 
 # ✅ This is where the xray binary is
 CMD ["/usr/local/bin/xray/xray", "-config", "/etc/xray/config.json"]
