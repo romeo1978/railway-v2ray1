@@ -2,6 +2,7 @@
   "log": {"loglevel": "warning"},
   "inbounds": [{
     "port": 443,
+    "listen": "0.0.0.0",
     "protocol": "vless",
     "settings": {
       "clients": [{
