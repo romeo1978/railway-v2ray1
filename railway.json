@@ -3,7 +3,7 @@
     "env": {}
   },
   "deploy": {
-    "startCommand": "xray -config /etc/xray/config.json",
+    "startCommand": "/usr/local/bin/xray/xray -config /etc/xray/config.json",
     "restartPolicyType": "always"
   }
 }
