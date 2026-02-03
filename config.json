@@ -2,7 +2,7 @@
   "log": {"loglevel": "warning"},
   "inbounds": [{
     "port": 443,
-    "protocol": "vmess",
+    "protocol": "vless",
     "settings": {
       "clients": [{
         "id": "5c810aa7-86d3-4afd-aa84-f7daa5b2603d",
