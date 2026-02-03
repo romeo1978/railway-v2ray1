@@ -15,4 +15,5 @@ COPY config.json /etc/xray/config.json
 EXPOSE 80 443
 
 # ✅ This is where the xray binary is
+RUN chmod +x /usr/local/bin/xray/xray
 CMD ["/usr/local/bin/xray/xray", "-config", "/etc/xray/config.json"]
