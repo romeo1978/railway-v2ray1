@@ -8,7 +8,8 @@
       "clients": [{
         "id": "5c810aa7-86d3-4afd-aa84-f7daa5b2603d",
         "alterId": 0
-      }]
+      }],
+      "decryption": "none"
     },
     "streamSettings": {
       "network": "ws",
